@@ -185,8 +185,7 @@
    */
   
   button,
-  [type="button"],
-  [type="reset"],
+/*x*/  [type="reset"],
   [type="submit"] {
     -webkit-appearance: button;
   }

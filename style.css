@@ -1,0 +1,179 @@
+
+body{
+  font-family: 'IBM Plex Sans', serif;
+  font-weight: 400;
+  color: #4C5C68;
+}
+
+input.nav-button{
+  color: #DCDCDD;
+}
+
+
+div.logo{
+  color: #DCDCDD;
+}
+
+.nav-container {
+  height: 25vh;
+  width: 100vw;
+  display: flex;
+  background-color: #3CA1E0;
+ 
+}
+
+  .nav-left{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50vw;
+    height: 25vh;
+    }
+
+
+     .nav-right{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    right: 0;
+    width: 30vw;
+    height: 25vh;
+    }
+
+
+.cardImage{
+  filter: brightness(0.71);
+    background-size: cover;
+
+}
+
+
+
+.team-image-one{
+  background-image: Url('images/cardinals.jpg');
+  background-size: cover;
+    height: 22vh;
+}
+
+.team-image-two{
+  background-image: Url('images/cubs.jpg');
+  background-size: cover;
+background-color: pink;
+  height: 22vh;
+}
+
+.team-image-three{
+  background-image: Url('images/rockies.jpg');
+background-size: cover;
+background-color: pink;
+  height: 22vh;
+}
+
+.team-image-four{
+  background-image: Url('images/brewers.jpg');
+  background-size: cover;
+background-color: pink;
+  height: 22vh;
+}
+
+
+.team-image-five{
+  background-image: Url('images/yankees.jpg');
+background-color: pink;
+  background-size: cover;
+
+  height: 22vh;
+}
+
+.team-image-six{
+  background-image: Url('images/as.jpg');
+background-color: pink;
+  height: 22vh;
+}
+
+.team-image-seven{
+  background-image: Url('images/dodgers.jpg');
+background-color: pink;
+  height: 22vh;
+}
+
+.team-image-eight{
+  background-image: Url('images/pirates.jpg');
+background-color: pink;
+  height: 22vh;
+}
+
+
+
+
+
+.card{
+  -webkit-box-shadow: 3px 4px 10px 5px rgba(0,0,0,0.4);
+-moz-box-shadow: 3px 4px 10px 5px rgba(0,0,0,0.4);
+box-shadow: 3px 4px 10px 5px rgba(0,0,0,0.4);
+}
+
+
+
+
+
+  .lower-half{
+    background-color: #C5C3C6;
+    display: flex;  
+  }
+
+
+
+.top-column{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+   margin-top: 2em;
+
+ }
+
+
+
+article{
+  height: 59vh;
+  width: 23vw;
+  background-color: #DCDCDD;
+ }
+
+
+.nav-button {
+  height: 2em;
+  width: 2em;
+  background:none;
+  border:none;
+  padding:0;
+  cursor: pointer;
+  margin-bottom: 10px;
+
+}
+
+
+.play-button{
+  height: 5vh;
+  width: 5vw;
+}
+
+
+.games{
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+
+.link-box{
+  background-color: #D3CBC4;
+  width: 10vw;
+  height: 2vh;
+}
+
+input.nav-button{
+  width: 20%;
+}
