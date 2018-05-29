@@ -84,10 +84,10 @@ input.nav-button{
 
 .down-arrow{
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 2vw;
   height: 3vh;
+  right: 0;
+  top: 0;
+  width: 2vw;
 }
 
 .tools-right{
@@ -213,8 +213,8 @@ input.nav-button{
   background-color: #4c5c6899;
   border: 3px #6c6c6d solid;
   display: flex;
-  height: 12%;
   flex-direction: row;
+  height: 12%;
   justify-content: space-between;
   margin-top: 0;
 }
@@ -301,7 +301,7 @@ input.nav-button{
   
   .nav-right-profile{
     display: flex;
-  flex-direction: row;
+    flex-direction: row;
     justify-content: space-between;
     margin-right: 18vw;
     margin-top: 15.5vh;
@@ -429,9 +429,9 @@ input.nav-button{
   }
 
   .nav-right-profile{
-    width: 18vw;
     margin-right: -10vw;
     margin-top: 0;
+    width: 18vw;
   }
   
   .image-logo{
