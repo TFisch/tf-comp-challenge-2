@@ -11,100 +11,207 @@
 <body>
   <header class="nav-container">
     <nav class="nav-left">
-      <input class="nav-button" type="button" value="Live Games">
-      <input class="nav-button" type="button" value="Highlights">
-      <input class="nav-button" type="button" value="Standings">  
+      <span class="nav-tools">
+        <img src="images/baseball3.svg" class="nav-button" alt="baseball icon">
+        <input class="liveButton nav-button" type="button" value="Live Games" role="Live Games List">
+      </span>
+      <span class="nav-tools">
+        <img src="images/film-strip.svg" class="nav-button" alt="highlight reel icon">
+        <input class="nav-button" type="button" value="Highlights" role"Highlight Plays">
+      </span>  
+      <span class="nav-tools"> 
+       <img src="images/winner.svg" class="nav-button" alt="standings icon">
+       <input class="nav-button" type="button" value="Standings" role="list of division standings">  
+      </span>
     </nav>
     <nav class="nav-right">
-      <input class="nav-button" type="button" value="User Name">
-      <div class="logo">logo</div>
+      <span class="nav-right-profile">
+        <img src="images/batter.svg" class="nav-icon helmet" alt="batter helmet icon">
+        <input class="nav-button profile" type="button" value="Profile" role="link to account details">
+        <img src="images/downwards-arrow.svg" class="nav-icon down-arrow" alt="downwards arrow icon">
+      </span>
+        <img class="image-logo" src="images/mlb-tv.svg" alt="major league baseball logo">
     </nav>
   </header>
-  <section class="top-column">
-    <article class="card-one card">
+  <header class="header-text">Live Games</header>
+  <section class="game-list">
+    <article class="card-one card" role="game one match up">
       <header class="team-image-one cardImage">
-         <img src="images/play-button1.svg" class="play-button">
+         <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" alt="live link to game">
+          <img src="images/icon5.svg" class="play-button" alt="view game icon">
+        </a>
       </header>
-      <p class="game-title">Team @ Team</p>
-      <p class="date-time">Date time</p>
-      <div class="link-box">linky</div>
-      <p class="audio">Audio</p>
-      <p class="radio-stations">stations</p>
+      <p class="game-title">
+        <img src="images/cardinals-logo.png" class="team-logo-left" alt="saint louis cardinals icon">
+        <img src="images/versus.png" class="versus-icon" alt="versus icon">
+        <img src="images/padres-logo.png" class="team-logo-right" alt="san diego padres icon">
+      </p>
+      <p class="box-score" role="box score">
+        <span class="score-left" role="away team score">5</span>
+        <span class="score-right role="home team score">2</span> 
+      </p>
+      <p class="inning" role="current inning">Bot 9th</p>
+      <div class="stadium" role="game location">Petco Park</div>
+       <p class="audio">
+        <img src="images/headphones.svg" class="headphones" alt="headphones icon">
+        <span class="broadcast" role="radio broadcast link">Broadcast</span>
+     </p>
     </article>
-    <article class="card-two card">
+    <article class="card-two card" role="game two match up">
        <header class="team-image-two cardImage">
-        
-      </header>
-      <p class="game-title">Team @ Team</p>
-      <p class="date-time">Date time</p>
-      <div class="link">linky</div>
-      <p class="audio">Audio</p>
-      <p class="radio-stations">stations</p>
+            <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" alt="link to live game">
+          <img src="images/icon5.svg" class="play-button">
+            </a>
+       </header>
+      <p class="game-title">
+           <img src="images/cubs-logo.png" class="team-logo-left" alt="chicago cubs icon">
+           <img src="images/versus.png" class="versus-icon" alt="versus icon" alt="versus icon">
+           <img src="images/reds-logo.png" class="team-logo-right" alt="cinncinati reds icon">
+      </p>
+      <p class="box-score" role="box score">
+        <span class="score-left" role="away team score">1</span>
+        <span class="score-right" role="home team score">6</span> 
+      </p>
+      <p class="inning" role="current inning">Bot 3rd</p>
+      <div class="stadium" role="game location">Great American Ballpark</div>
+      <p class="audio">
+        <img src="images/headphones.svg" class="headphones" alt="headphones icon">
+        <span class="broadcast" role="live radio broadcast">Broadcast</span>
+     </p>
     </article>
-    <article class="card-three card">
+    <article class="card-three card" role="game three match up">
        <header class="team-image-three cardImage">
-        
+            <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" alt="live link to game">
+           <img src="images/icon5.svg" class="play-button">
+         </a>
       </header>
-      <p class="game-title">Team @ Team</p>
-      <p class="date-time">Date time</p>
-      <div class="link">linky</div>
-      <p class="audio">Audio</p>
-      <p class="radio-stations">stations</p>
+      <p class="game-title">
+             <img src="images/rockies-logo.png" class="team-logo-left" alt="denver rockies icon">
+             <img src="images/versus.png" class="versus-icon" alt="versus icon">
+             <img src="images/mariners-logo.png" class="team-logo-right" alt="seattle mariners icon">
+      </p>
+      <p class="box-score" role="box score">
+         <span class="score-left" role="away team score">4</span>
+        <span class="score-right" role="home team score">3</span> 
+      </p>
+      <p class="inning" role="current inning">Top 1st</p>
+      <div class="stadium" role="game location">SafeCo Field</div>
+       <p class="audio">
+        <img src="images/headphones.svg" class="headphones" role="headphones icon">
+        <span class="broadcast" role="live sports broadcast">Broadcast</span>
+     </p>
     </article>
-    <article class="card-four card"> 
+    <article class="card-four card" role="game four match up"> 
       <header class="team-image-four cardImage">
-        
+            <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" alt="live link to game">
+         <img src="images/icon5.svg" class="play-button" alt="live game play button">
+        </a>
       </header>
-      <p class="game-title">Team @ Team</p>
-      <p class="date-time">Date time</p>
-      <div class="link">linky</div>
-      <p class="audio">Audio</p>
-      <p class="radio-stations">stations</p>
+      <p class="game-title">
+           <img src="images/brewers-logo.png" class="team-logo-left" alt="milwaukee brewers icon">
+           <img src="images/versus.png" class="versus-icon" alt="versus icon">
+           <img src="images/blue-jays-logo.png" class="team-logo-right" alt="toronto blue jays icon">
+      </p>
+      <p class="box-score" role="box score">
+        <span class="score-left" role="away team score">7</span>
+        <span class="score-right" role="home team score">2</span> 
+      </p>
+      <p class="inning" role="current inning">Top 7th</p>
+      <div class="stadium" role="game location">Rogers Centre</div>
+       <p class="audio">
+        <img src="images/headphones.svg" class="headphones" role="headphones icon">
+        <span class="broadcast" alt="live radio broadcast">Broadcast</span>
+     </p>
     </article>
-
-  
-    <article class="card-five card">
+    <article class="card-five card" role="game five match up">
       <header class="team-image-five cardImage">
-        
+            <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" alt="live link to game">
+          <img src="images/icon5.svg" class="play-button" alt="live game play button">
+        </a>
       </header>
-      <p class="game-title">Team @ Team</p>
-      <p class="date-time">Date time</p>
-      <div class="link">linky</div>
-      <p class="audio">Audio</p>
-      <p class="radio-stations">stations</p>
+      <p class="game-title">
+           <img src="images/yankees-logo.png" class="team-logo-left" alt="new york yankees logo">
+           <img src="images/versus.png" class="versus-icon" alt="versus icon">
+           <img src="images/red-sox-logo.png" class="team-logo-right" alt="boston red sox logo">
+      </p>
+      <p class="box-score" role="box score">
+        <span class="score-left" role="away team score">9</span>
+        <span class="score-right" role="home team score">9</span> 
+      </p>
+      <p class="inning" role="current inning">Bot 4th</p>
+      <div class="stadium" role="game location">Fenway Park</div>
+       <p class="audio">
+        <img src="images/headphones.svg" class="headphones" role="headphones">
+        <span class="broadcast" role="live radio broadcast">Broadcast</span>
+     </p>
     </article>
-    <article class="card-six card">
+    <article class="card-six card" role="game six match up">
       <header class="team-image-six cardImage">
-        
+          <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" alt="live link to game">
+         <img src="images/icon5.svg" class="play-button" alt="live game play button">
+       </a>
       </header>
-      <p class="game-title">Team @ Team</p>
-      <p class="date-time">Date time</p>
-      <div class="link">linky</div>
-      <p class="audio">Audio</p>
-      <p class="radio-stations">stations</p>
+      <p class="game-title">
+           <img src="images/athletics-logo.png" class="team-logo-left" alt="oakland athletics logo">
+           <img src="images/versus.png" class="versus-icon" alt="versus icon">
+           <img src="images/tigers-logo.png" class="team-logo-right" alt="detriot tigers logo">  
+      </p>
+      <p class="box-score" role="box score">
+        <span class="score-left" role="away team score">0</span>
+        <span class="score-right" role="home team score">3</span> 
+      </p>
+      <p class="inning" role="current inning">Top 3rd</p>
+      <div class="stadium" role="game location">Comerica Park</div>
+       <p class="audio">
+        <img src="images/headphones.svg" class="headphones" alt="headphones icon">
+        <span class="broadcast" alt="live radio broadcast">Broadcast</span>
+     </p>
     </article>
-    <article class="card-seven card">
+    <article class="card-seven card" role="game seven match up">
       <header class="team-image-seven cardImage">
-        
+          <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" alt="live link to game">
+         <img src="images/icon5.svg" class="play-button" alt="live game play icon">
+       </a>
       </header>
-      <p class="game-title">Team @ Team</p>
-      <p class="date-time">Date time</p>
-      <div class="link">linky</div>
-      <p class="audio">Audio</p>
-      <p class="radio-stations">stations</p>
+      <p class="game-title">
+           <img src="images/dodgers-logo.png" class="team-logo-left" alt="los angeles dodger icon">
+           <img src="images/versus.png" class="versus-icon" alt="versus icon">
+           <img src="images/white-sox-logo.png" class="team-logo-right" alt="chicago white sox icon">
+      </p>
+      <p class="box-score" role="box score">
+        <span class="score-left" role="away team score">1</span>
+        <span class="score-right" role="home team score">1</span> 
+      </p>
+      <p class="inning" role="current inning">FINAL</p>
+      <div class="stadium" role="game location">Gaurnteed Rate Field</div>
+       <p class="audio">
+        <img src="images/headphones.svg" class="headphones" alt="headphones icon">
+        <span class="broadcast" role="live radio broadcast">Broadcast</span>
+     </p>
     </article>
-    <article class="card-eight card">
+    <article class="card-eight card" role="game eight match up">
        <header class="team-image-eight cardImage">
-        
+          <a href="https://www.youtube.com/watch?v=oHg5SJYRHA0" alt="live link to game">
+         <img src="images/icon5.svg" class="play-button" role="live game play icon">
+       </a>
       </header>
-      <p class="game-title">Team @ Team</p>
-      <p class="date-time">Date time</p>
-      <div class="link">linky</div>
-      <p class="audio">Audio</p>
-      <p class="radio-stations">stations</p>
+      <p class="game-title">
+         <img src="images/pirates-logo.png" class="team-logo-left" alt="pittsburgh pirates logo">
+         <img src="images/versus.png" class="versus-icon" alt="versus icon"> 
+         <img src="images/astros-logo.png" class="team-logo-right" alt="houston astros logo">
+      </p>
+      <p class="box-score" role="box score">
+        <span class="score-left" role="away team score">3</span>
+        <span class="score-right" role="home team score">1</span> 
+      </p>
+      <p class="inning" role="current inning">FINAL</p>
+      <div class="stadium" role="game location">Minute Maid Park</div>
+       <p class="audio">
+        <img src="images/headphones.svg" class="headphones" alt="headphones icon">
+        <span class="broadcast" role="live radio broadcast">Broadcast</span>
+     </p>
     </article>
   </section>
 </div>  
-
 </body>
 </html>

@@ -1,179 +1,484 @@
-
 body{
-  font-family: 'IBM Plex Sans', serif;
-  font-weight: 400;
+  background-color: #EFEFEF;
   color: #4C5C68;
-}
-
-input.nav-button{
-  color: #DCDCDD;
-}
-
-
-div.logo{
-  color: #DCDCDD;
+  font-family: 'IBM Plex Sans', serif;
 }
 
 .nav-container {
-  height: 25vh;
-  width: 100vw;
+  background-color: #003087;
   display: flex;
-  background-color: #3CA1E0;
- 
+  height: 21vh;
+  width: 100vw;
 }
 
-  .nav-left{
-    align-items: flex-end;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 50vw;
-    height: 25vh;
-    }
+.nav-left{
+  display: flex;
+  flex-direction: row;
+  height: 25vh;
+  justify-content: space-between;
+  text-align: left;
+  width: 53vw;
+}
 
+.liveButton{
+  color: #C42939;
+}
 
-     .nav-right{
-    align-items: flex-end;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: absolute;
-    right: 0;
-    width: 30vw;
-    height: 25vh;
-    }
+.nav-tools{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 111px;
+  width: 27%;
+}
 
+.nav-button {
+  background:none;
+  border:none;
+  color: #DCDCDD;
+  cursor: pointer;
+  height: 2em;
+  margin-left: 6px;
+  padding:0;
+  text-align: left;
+  width: 2em;
+}
+
+input.nav-button{
+  width: 72%;
+}
+
+.image-logo{
+  height: 100%;
+  width: 50%;
+}
+
+.nav-right{
+  align-items: flex-end;
+  color: #C42939;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 29vh;
+  max-width: 100%;
+  position: absolute;
+  right: 0;
+  width: 35vw;
+}
+
+.nav-right-profile{
+  color: #C42939;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  right: 1vw;
+  top: 0;
+  width: 8vw;
+}
+
+.nav-icon{
+  height: 5%;
+  margin-top: 8%;
+  width: 1.3em;
+}
+
+.down-arrow{
+  position: absolute;
+  height: 3vh;
+  right: 0;
+  top: 0;
+  width: 2vw;
+}
+
+.tools-right{
+  display: flex;
+}
+
+.profile{
+  color: #C42939;
+  font-size: 1.25em;
+  margin-left: 2vw;
+  position: absolute;
+}
+.header-text{
+  color: #003087;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-left: .44em;
+  margin-top: .25em;
+}
+
+.game-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 4em;
+ }
+
+ article{
+  background-color: #DCDCDD;
+  color: #6c6c6d;
+  font-size: 1.2em;
+  font-weight: 500;
+  height: 66vh;
+  margin-bottom: 5%;
+  width: 22vw;
+}
 
 .cardImage{
+  background-size: cover;
   filter: brightness(0.71);
-    background-size: cover;
-
 }
-
-
 
 .team-image-one{
   background-image: Url('images/cardinals.jpg');
   background-size: cover;
-    height: 22vh;
+  height: 22vh;
 }
 
 .team-image-two{
   background-image: Url('images/cubs.jpg');
   background-size: cover;
-background-color: pink;
   height: 22vh;
 }
 
 .team-image-three{
   background-image: Url('images/rockies.jpg');
-background-size: cover;
-background-color: pink;
+  background-size: cover;
   height: 22vh;
 }
 
 .team-image-four{
   background-image: Url('images/brewers.jpg');
   background-size: cover;
-background-color: pink;
   height: 22vh;
 }
 
-
 .team-image-five{
   background-image: Url('images/yankees.jpg');
-background-color: pink;
   background-size: cover;
-
   height: 22vh;
 }
 
 .team-image-six{
   background-image: Url('images/as.jpg');
-background-color: pink;
+  background-size: cover;
   height: 22vh;
 }
 
 .team-image-seven{
   background-image: Url('images/dodgers.jpg');
-background-color: pink;
+  background-size: cover;
   height: 22vh;
 }
 
 .team-image-eight{
   background-image: Url('images/pirates.jpg');
-background-color: pink;
+  background-size: cover;
   height: 22vh;
 }
 
-
-
-
-
 .card{
+  box-shadow: 3px 4px 10px 5px rgba(0,0,0,0.4);
+  -moz-box-shadow: 3px 4px 10px 5px rgba(0,0,0,0.4);
   -webkit-box-shadow: 3px 4px 10px 5px rgba(0,0,0,0.4);
--moz-box-shadow: 3px 4px 10px 5px rgba(0,0,0,0.4);
-box-shadow: 3px 4px 10px 5px rgba(0,0,0,0.4);
 }
 
-
-
-
-
-  .lower-half{
-    background-color: #C5C3C6;
-    display: flex;  
-  }
-
-
-
-.top-column{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-   margin-top: 2em;
-
- }
-
-
-
-article{
-  height: 59vh;
-  width: 23vw;
-  background-color: #DCDCDD;
- }
-
-
-.nav-button {
-  height: 2em;
-  width: 2em;
-  background:none;
-  border:none;
-  padding:0;
-  cursor: pointer;
-  margin-bottom: 10px;
-
+.team-logo-left{
+  height: 2.2em;
+  margin-left: 5%;
+  margin-top: 5px;
+  width: 2.2em;
 }
 
+.team-logo-right{
+  height: 2.2em;
+  margin-right: 5%;
+  margin-top: 5px;
+  width: 2.2em;
+}
 
 .play-button{
   height: 5vh;
+  margin-top: 2%;
   width: 5vw;
 }
-
 
 .games{
   font-size: 2.5em;
   font-weight: 500;
 }
 
-
-.link-box{
-  background-color: #D3CBC4;
-  width: 10vw;
-  height: 2vh;
+.game-title{
+  background-color: #4c5c6899;
+  border: 3px #6c6c6d solid;
+  display: flex;
+  flex-direction: row;
+  height: 12%;
+  justify-content: space-between;
+  margin-top: 0;
 }
 
-input.nav-button{
-  width: 20%;
+.versus-icon{
+  height: 2em; 
+  margin-top: .28em;
+  opacity: .50;
+  width: 2em;
 }
+
+.score-left{
+  color: #003087;
+  font-size: 1.5em;
+  margin-left: 1em;
+  opacity: .75;
+}
+
+.score-right{
+  color: #003087;
+  float: right;
+  font-size: 1.5em;
+  margin-right: 1em;
+  opacity: .75;
+}
+
+.inning{
+  color: #003087;
+  font-weight: 650;
+  text-align: center;
+}
+  
+.play-button:hover{
+    content:url("images/play-button2.svg");
+  }
+  
+.audio{
+    margin-left: 6.5vw;
+    margin-top: 1em;
+    }
+  
+.headphones{
+   height: 1.25em; 
+   width: 1.25em;
+}
+
+.stadium{
+  color: #4c5c6899;
+  text-align: center;
+}
+
+.broadcast{
+  color: #000000d9;
+}
+
+@media screen and (max-width: 1140px){
+
+  .nav-tools{
+   font-size: .75em;
+  }
+
+  .audio{
+  font-size: .75em;
+ }
+
+ .stadium{
+   font-size: 16px;
+ }
+
+}
+
+@media screen and (max-width: 750px){
+  
+  .nav-left{
+    margin-left: 2em;
+    width: 67vw;
+  }
+  
+
+  input.nav-button{
+    width: 80%;
+  }
+ 
+  
+  .nav-right-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 18vw;
+    margin-top: 15.5vh;
+  }
+
+  .helmet{
+    margin-right: 1vw;
+  }
+
+  .down-arrow{
+    position: relative;
+    margin-left: 5.5vw;
+  }
+  
+  .image-logo{
+    height: 68%;
+    margin-top: 7vh;
+    width: 29%;
+  }
+
+  .nav-icon{
+    width: 1em;
+  }
+
+  .profile{
+    font-size: 1em;
+  }
+
+
+  .header-text{
+    text-align: center;
+  }
+
+  .cardImage{
+    filter: brightness(0.71);
+    background-size: cover;
+  }
+
+  .game-list{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 3.5em;
+    margin-top: 4em;
+    width: 87%;
+  }
+
+ .broadcast{
+   display: none;
+ }
+
+}
+
+@media screen and (max-width: 637px){
+
+  .image-logo{
+    display: none;
+  }
+
+  .profile{
+    margin-left: 4vw;
+  }
+
+  .down-arrow{
+    right: 10px;
+  }
+
+  article{
+    align-items: center;
+    font-size: .82em;
+    height: 27vh;
+  }
+
+  .game-list{
+    align-items: center;
+    background-image: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 3.5em;
+    margin-top: 4em;
+    width: 87%;
+ }
+
+  .cardImage{
+    display: none;
+  }
+
+  .broadcast{
+    display: none;
+  }
+
+  .stadium{
+    display: none;
+  }
+
+  .team-logo-left{
+    height:1.5em;
+    width: 1.5em;
+  }
+
+  .team-logo-right{
+    height:1.5em;
+    width: 1.5em;
+  }
+
+  .headphones{
+    align-content: center;
+  }
+
+  .game-title{
+    height: 23%;
+  }
+
+  .nav-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .nav-right{
+    flex-direction: row;
+    margin-right: 10vw;
+  }
+
+  .nav-right-profile{
+    margin-right: -10vw;
+    margin-top: 0;
+    width: 18vw;
+  }
+  
+  .image-logo{
+    height: 53vh;
+    margin-left: 16vh;
+  }
+  
+  .headphones{
+    display: none;
+  }
+
+  input.nav-button {
+    margin-bottom: 7vh;
+    width: 19vw;
+  }
+
+  .nav-container{
+    height: 5vh;
+    }
+
+  .nav-tools{
+    font-size: .60em;
+    margin-top: .75em;
+  }
+
+
+}
+
+@media screen and (max-width: 460px){ 
+
+  article{
+    height: 20vh;
+    width: 48vw;
+  }
+
+  .game-list{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile{
+    display: none;
+  }
+
+  .helmet{
+    display: none;
+  }
+
+}
+
