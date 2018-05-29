@@ -248,11 +248,11 @@ input.nav-button{
 }
   
 .play-button:hover{
-    content:url("images/play-button2.svg");
+  content:url("images/play-button2.svg");
   }
   
 .audio{
-    margin-left: 6.5vw;
+    margin-left: 6.4vw;
     margin-top: 1em;
     }
   
@@ -324,6 +324,10 @@ input.nav-button{
 
   .nav-icon{
     width: 1em;
+  }
+
+  .nav-right{
+    height: 23vh;
   }
 
   .profile{
