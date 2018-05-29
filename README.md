@@ -5,4 +5,4 @@ The static comp challenge is a series of three challenges to keep you working th
 
 ![alt text](static-comp-challenge-2.jpg)
 
-![alt text](Screen Shot 2.png)
+![alt text](tf-comp-challenge-2/Screen Shot 2.png)
